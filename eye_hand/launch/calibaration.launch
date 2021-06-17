@@ -1,0 +1,5 @@
+<launch>
+ <node pkg="eye_hand" type="eye_hand_calibaration" name="eye_hand_calibration" output="screen"/>
+<include file="$(aruco_ros/aruco_ros)/launch/single.launch" />
+
+</launch>

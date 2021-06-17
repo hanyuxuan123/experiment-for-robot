@@ -1,0 +1,4 @@
+<launch>
+ <node pkg="eye_hand" type="eye_hand_clibaratation_kinect2_2" name="eye_hand_calibration" output="screen"/>
+
+</launch>
